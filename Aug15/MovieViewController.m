@@ -34,7 +34,7 @@
 			NSLog(@"Could not access main bundle.");
 		}
 		
-		NSString *filename = [bundle pathForResource: @"My First Project" ofType: @"m4v"];
+		NSString *filename = [bundle pathForResource: @"me" ofType: @"m4v"];
 		if (filename == nil) {
 			NSLog(@"could not find file sneeze.m4v");
 		}
@@ -88,11 +88,12 @@
 	
 	//sender is the button.
 	controller.view.frame = self.view.frame;
-	[self.view removeFromSuperview];
+	//[self.view removeFromSuperview];
 	if(controller == nil){
 		NSLog(@"controller is nil");
 	}
 	self.view=controller.view;
+	controller.fullscreen=YES;
 	//[self.window addSubview: controller.view];
 	NSLog(@"subview added");
 	[controller play];

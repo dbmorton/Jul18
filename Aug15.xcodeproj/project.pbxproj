@@ -18,10 +18,10 @@
 		12B277B717BD27ED009F69BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B277B617BD27ED009F69BE /* Default-568h@2x.png */; };
 		12B277BF17BD28D2009F69BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B277BE17BD28D2009F69BE /* ViewController.m */; };
 		12B277C217BD292F009F69BE /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B277C117BD292F009F69BE /* View.m */; };
-		12B277C417BD9CD6009F69BE /* My First Project.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 12B277C317BD9CD6009F69BE /* My First Project.m4v */; };
 		12B277C617BD9E66009F69BE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B277C517BD9E66009F69BE /* MediaPlayer.framework */; };
 		12B277C917BD9EF8009F69BE /* MovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B277C817BD9EF8009F69BE /* MovieView.m */; };
 		12B277CC17BDA095009F69BE /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B277CB17BDA094009F69BE /* MovieViewController.m */; };
+		12B277CE17BDB261009F69BE /* me.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 12B277CD17BDB261009F69BE /* me.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +42,12 @@
 		12B277BE17BD28D2009F69BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12B277C017BD292F009F69BE /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		12B277C117BD292F009F69BE /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		12B277C317BD9CD6009F69BE /* My First Project.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = "My First Project.m4v"; path = "Aug15/My First Project.m4v"; sourceTree = "<group>"; };
 		12B277C517BD9E66009F69BE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		12B277C717BD9EF7009F69BE /* MovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieView.h; sourceTree = "<group>"; };
 		12B277C817BD9EF8009F69BE /* MovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieView.m; sourceTree = "<group>"; };
 		12B277CA17BDA094009F69BE /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
 		12B277CB17BDA094009F69BE /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		12B277CD17BDB261009F69BE /* me.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = me.m4v; path = Aug15/me.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +68,8 @@
 		12B2779417BD27ED009F69BE = {
 			isa = PBXGroup;
 			children = (
+				12B277CD17BDB261009F69BE /* me.m4v */,
 				12B277C517BD9E66009F69BE /* MediaPlayer.framework */,
-				12B277C317BD9CD6009F69BE /* My First Project.m4v */,
 				12B277A617BD27ED009F69BE /* Aug15 */,
 				12B2779F17BD27ED009F69BE /* Frameworks */,
 				12B2779E17BD27ED009F69BE /* Products */,
@@ -178,7 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B277C417BD9CD6009F69BE /* My First Project.m4v in Resources */,
+				12B277CE17BDB261009F69BE /* me.m4v in Resources */,
 				12B277AB17BD27ED009F69BE /* InfoPlist.strings in Resources */,
 				12B277B317BD27ED009F69BE /* Default.png in Resources */,
 				12B277B517BD27ED009F69BE /* Default@2x.png in Resources */,
